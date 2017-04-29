@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MusicalApp</string>
+    <string name="tom_odell">Tom Odell</string>
+    <string name="jessie_j">Jessie J</string>
+    <string name="ed_sheeran">Ed Sheeran</string>
+    <string name="adele">Adele</string>
+    <string name="store">Store</string>
+    <string name="artists">Artists</string>
+    <string name="my_playlist">My Playlist</string>
+    <string name="home">Home</string>
+    <string name="playlist">PLAYLIST</string>
+    <string name="choose_your_artist">Choose your artist!</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="shop_online">SHOP ONLINE</string>
+    <string name="search_for_album">Search for album</string>
+    <string name="here">here...</string>
+    <string name="domino">Domino</string>
+    <string name="adele_someone_like_you">Adele - Someone like you</string>
+</resources>
