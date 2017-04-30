@@ -1,9 +1,7 @@
-package com.example.andralung.musicalapp;
+package com.example.andralung.musicalapp.adapters;
 
 import android.content.Context;
 import android.content.Intent;
-import android.provider.MediaStore;
-import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -11,6 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.RadioButton;
+
+import com.example.andralung.musicalapp.activities.AddToPlaylist;
+import com.example.andralung.musicalapp.models.Albums;
+import com.example.andralung.musicalapp.R;
 
 import java.util.ArrayList;
 

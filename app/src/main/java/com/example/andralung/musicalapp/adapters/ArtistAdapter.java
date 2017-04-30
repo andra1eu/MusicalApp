@@ -1,16 +1,19 @@
-package com.example.andralung.musicalapp;
+package com.example.andralung.musicalapp.adapters;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.andralung.musicalapp.models.Artist;
+import com.example.andralung.musicalapp.activities.NowPlaying;
+import com.example.andralung.musicalapp.R;
 
 import java.util.ArrayList;
 

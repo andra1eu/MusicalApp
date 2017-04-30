@@ -1,7 +1,7 @@
-package com.example.andralung.musicalapp;
+package com.example.andralung.musicalapp.models;
 
 
-class Albums {
+public class Albums {
 
     private String albums;
 

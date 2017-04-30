@@ -1,6 +1,6 @@
-package com.example.andralung.musicalapp;
+package com.example.andralung.musicalapp.models;
 
-class Artist {
+public class Artist {
 
     private String myArtist;
     private int myIcon;

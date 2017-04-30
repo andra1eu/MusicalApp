@@ -1,4 +1,4 @@
-package com.example.andralung.musicalapp;
+package com.example.andralung.musicalapp.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+
+import com.example.andralung.musicalapp.R;
+import com.example.andralung.musicalapp.adapters.ArtistAdapter;
+import com.example.andralung.musicalapp.models.Artist;
 
 import java.util.ArrayList;
 
@@ -19,6 +23,7 @@ public class MyPlaylist extends AppCompatActivity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_playlist);
         getSupportActionBar().setTitle("My Playlist");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         artists = (Button) findViewById(R.id.button_artists);
         home = (Button) findViewById(R.id.button_home);

@@ -1,4 +1,4 @@
-package com.example.andralung.musicalapp;
+package com.example.andralung.musicalapp.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+
+import com.example.andralung.musicalapp.R;
+import com.example.andralung.musicalapp.adapters.SongsAdapter;
+import com.example.andralung.musicalapp.models.SongsToAdd;
 
 import java.util.ArrayList;
 
@@ -21,6 +25,7 @@ public class AddToPlaylist extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_to_playlist);
         getSupportActionBar().setTitle("Add to playlist");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         artistButton = (Button) findViewById(R.id.button_go_artists);
         playlistButton = (Button) findViewById(R.id.button_go_playlist);
 

@@ -7,13 +7,17 @@
     <string name="store">Store</string>
     <string name="artists">Artists</string>
     <string name="my_playlist">My Playlist</string>
-    <string name="home">Home</string>
-    <string name="playlist">PLAYLIST</string>
-    <string name="choose_your_artist">Choose your artist!</string>
+    <string name="home_functionality">This is the main activity of the app. Here you have access to the playlist, artists or store. </string>
+    <string name="playlist_functionality">This is the list of the songs I downloaded to my phone. If I want more I go to Artists and search what song I want.</string>
+    <string name="artists_functionality">Here you choose an artist you would like to hear. Tapping on one artist will open a list with all his songs.</string>
     <string name="now_playing">Now Playing</string>
-    <string name="shop_online">SHOP ONLINE</string>
+    <string name="shop_functionality">Here I can buy certain albums that are new and cannot be downloaded.</string>
     <string name="search_for_album">Search for album</string>
     <string name="here">here...</string>
     <string name="domino">Domino</string>
     <string name="adele_someone_like_you">Adele - Someone like you</string>
+    <string name="now_playing_functionality">This activity plays each song you chose from playlist. I would like to use a progress bar too here. In order to build my app I will have to use the ContentResolver class to retrieve tracks on device, the MediaPlayer class and the MediaController class to control playback.  </string>
+    <string name="add_to_playlist_functionality">Choose which songs you like to add to your playlist. When you tap a song it will download to your playlist.</string>
+    <string name="home">HOME</string>
+    <string name="playlist">PLAYLIST</string>
 </resources>

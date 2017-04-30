@@ -1,6 +1,6 @@
-package com.example.andralung.musicalapp;
+package com.example.andralung.musicalapp.models;
 
-class SongsToAdd {
+public class SongsToAdd {
     private String songsToAddInPlaylist;
 
 

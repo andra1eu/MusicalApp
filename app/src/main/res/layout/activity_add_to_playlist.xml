@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.andralung.musicalapp.AddToPlaylist">
+    tools:context="com.example.andralung.musicalapp.activities.AddToPlaylist">
 
     <TextView
         android:layout_width="368dp"
         android:layout_height="wrap_content"
-        android:text="Choose which songs you like to add to your playlist "
-        android:textSize="24sp"
+        android:text="@string/add_to_playlist_functionality"
+        android:textSize="15sp"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="16dp"
         android:id="@+id/choose_song_text_view"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginLeft="@dimen/margin_between_related_view"
+        android:layout_marginRight="@dimen/margin_between_related_view"
         app:layout_constraintRight_toRightOf="parent" />
 
     <ListView
@@ -26,9 +26,9 @@
         android:layout_height="351dp"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="@dimen/margin_between_related_view"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="@dimen/margin_between_related_view"
         app:layout_constraintTop_toBottomOf="@+id/choose_song_text_view">
 
     </ListView>
@@ -38,22 +38,22 @@
         android:layout_height="wrap_content"
         android:text="@string/artists"
         android:id="@+id/button_go_artists"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="@dimen/margin_between_related_view"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginBottom="@dimen/margin_between_related_view"
+        android:layout_marginTop="@dimen/margin_between_related_view"
         app:layout_constraintTop_toBottomOf="@+id/list_add_to_playlist" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/playlist"
         android:id="@+id/button_go_playlist"
-        android:layout_marginRight="8dp"
+        android:layout_marginRight="@dimen/margin_between_related_view"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginBottom="@dimen/margin_between_related_view"
+        android:layout_marginTop="@dimen/margin_between_related_view"
         app:layout_constraintTop_toBottomOf="@+id/list_add_to_playlist" />
 
 

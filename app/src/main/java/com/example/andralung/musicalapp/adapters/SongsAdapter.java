@@ -1,7 +1,6 @@
-package com.example.andralung.musicalapp;
+package com.example.andralung.musicalapp.adapters;
 
 import android.content.Context;
-import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -9,6 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
+
+import com.example.andralung.musicalapp.R;
+import com.example.andralung.musicalapp.models.SongsToAdd;
 
 import java.util.ArrayList;
 
